@@ -164,8 +164,11 @@ img {
   animation: fadein 10.5s;
 }
 .tthree{
+  
   animation: fadein 14s;
+
 }
+
 p {
   text-align: left;
   font-weight: 900;
@@ -206,7 +209,7 @@ p {
   display: block;
   background-color: white;
   padding: 60px;
-  width: 50%;
+  width: 110%;
   border-left: 0.9px solid black;
 }
 
