@@ -23,7 +23,6 @@ body {
   from {
     margin-left: -4600px;
   }
-
   to {
     margin-left: 0%;
   }
@@ -39,7 +38,6 @@ body {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -211,7 +209,7 @@ p {
   display: block;
   background-color: white;
   padding: 60px;
-  width: 110%;
+  width: 105%;
   border-left: 0.9px solid black;
 }
 
@@ -231,11 +229,9 @@ p {
   line-height: 1.5;
 }
 
-
 .card2 p {
   color: black;
 }
-
 
 .ThirdRow {
   display: flex;
@@ -253,7 +249,6 @@ p {
   border-left: 0.9px solid black;
 }
 
-
 .card3 p {
   color: rgb(7, 180, 7);
   white-space: normal;
@@ -262,7 +257,8 @@ p {
 }
 
 .card3 h1 {
-  color: rgb(103, 250, 103)
+  color: rgb(103, 250, 103);
+
     /* rgb(88, 244, 88) */
 }
 
@@ -272,7 +268,6 @@ p {
   display: block;
   /* background-color: darkblue; */
 }
-
 
 .FourthRow {
   display: flex;
