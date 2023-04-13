@@ -296,3 +296,19 @@ p {
   color: white;
   text-align: center;
 }
+
+
+
+.cursor {
+  display: inline-block;
+  width: 0.5em;
+  height: 1em;
+  background-color: transparent;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
