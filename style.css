@@ -257,6 +257,8 @@ p {
 
 .card3 h1 {
   color: rgb(103, 250, 103);
+white-space: normal;
+  
 
     /* rgb(88, 244, 88) */
 }
