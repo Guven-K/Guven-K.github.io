@@ -279,7 +279,7 @@ p {
 
 .card4 {
   display: block;
-  background-color: rgb(56, 56, 200);
+  background-color: rgb(50, 50, 182);
   padding: 60px;
   width: 100%;
 
@@ -297,10 +297,11 @@ p {
 
 }
 
-#game {
+.game {
   display: block;
   justify-content: left;
   width: 100%;
+  border: 0.9px solid black;
 
 }
 
