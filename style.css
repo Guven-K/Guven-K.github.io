@@ -215,14 +215,16 @@ p {
 
 .card2 p {
   color: black;
+  font-size: 1.5vw;
 }
 
 .Lines {
-  font-size: 1.438rem;
-  margin: 0%;
+  /* font-size: 1.438rem; */
+  font-size: 1.5vw;
   min-width: 0px;
   left: 20px;
   width: 2em;
+  margin-right: 10px;
   text-align: center;
   position: absolute;
   font-family: "Fira Code";
@@ -230,9 +232,8 @@ p {
   color: rgb(255, 194, 81);
   box-sizing: border-box;
   letter-spacing: 0.1px;
-  line-height: 1.5;
-  
-
+  line-height: 1.4765;
+  overflow: hidden; 
 }
 
 .ThirdRow {
@@ -244,19 +245,26 @@ p {
 }
 
 .card3 {
-  display: block;
+  display: flex;
   background-color: rgb(53, 52, 52);
   padding: 60px;
-  width: 100%;
+  width: 115%;
   border-right: 0.9px solid black;
   /* border-left: 0.9px solid black; */
+}
+
+.softwarecontents {
+  display: block;
+  margin: 15px;
+  margin-left: 25px;
+  margin-bottom: 50px;
 }
 
 .card3 p {
   color: rgb(7, 180, 7);
   white-space: normal;
   font-family: "Fira Code";
-
+  font-size: 1.48vw;
 }
 
 .card3 h1 {
@@ -292,7 +300,9 @@ p {
 .card4 p {
   color: white;
   white-space: normal;
-  font-size: 2.95vh;
+  /* font-size: 2.95vh; */
+  font-size: 1.5vw; 
+  font-weight: bold;
 }
 
 .card4 h1 {
@@ -300,14 +310,22 @@ p {
   white-space: normal;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
-
 }
 
 .game {
-  display: block;
-  justify-content: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  border: 0.9px solid black;
+  border: 1px solid black;
+}
+
+.GameContent {
+  display: block;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 25px;
+  position: relative;
 }
 
 .cursor {
@@ -339,12 +357,33 @@ p {
   }
 }
 
-#Footer {
+.Footer {
   display: flex;
   width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: black;
+  padding: 15px;
+  position: absolute;
+  background-color: white;
   border-top: 3px solid silver;
   border-bottom: 3px solid silver;
+}
+
+.Footer h1 {
+  text-align: right;
+  margin-right: 7px;
+  font-size: 4.55vh;
+  font-family: "Brandon bld";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.footercontents {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.logos {
+  display: block;
+  padding: 10px;
+  width: 4.2%;
 }
