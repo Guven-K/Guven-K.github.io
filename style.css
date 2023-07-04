@@ -209,7 +209,7 @@ p {
   display: block;
   background-color: white;
   padding: 60px;
-  width: 105%;
+  width: 100%;
   border-left: 0.9px solid black;
 }
 
@@ -220,7 +220,7 @@ p {
 
 .Lines {
   /* font-size: 1.438rem; */
-  font-size: 1.5vw;
+  font-size: 1.48vw;
   min-width: 0px;
   left: 20px;
   width: 2em;
@@ -231,7 +231,7 @@ p {
   color: rgb(255, 194, 81);
   box-sizing: border-box;
   letter-spacing: 0.1px;
-  line-height: 1.4765;
+  line-height: 1.5;
   overflow: hidden; 
 }
 
@@ -241,23 +241,24 @@ p {
   align-items: left;
   width: 100%;
   border-top: 0.9px solid black;
+  background-color: rgb(53, 52, 52);
 }
 
 .card3 {
   display: flex;
   background-color: rgb(53, 52, 52);
-  padding: 63px; /* 60px */
-  width: 115%;
-
+  padding: 65px; /* 60px */
+  width: 105%;
+  padding-bottom: 155px;
   border-right: 0.9px solid black;
   /* border-left: 0.9px solid black; */
 }
 
 .softwarecontents {
   display: block;
-  margin: 15px;
-  margin-left: 25px;
-  margin-bottom: 50px;
+
+  margin-left: 35px;
+
 }
 
 .card3 p {
@@ -265,6 +266,7 @@ p {
   white-space: normal;
   font-family: "Fira Code";
   font-size: 1.48vw;
+  margin-left: 5px;
 }
 
 .card3 h1 {
@@ -291,7 +293,7 @@ p {
 .card4 {
   display: block;
   background-color: rgb(50, 50, 182);
-  padding: 60px;
+  padding: 70px;
   width: 100%;
   border-left: 0.9px solid black;
   text-align: center;
@@ -301,8 +303,9 @@ p {
   color: white;
   white-space: normal;
   /* font-size: 2.95vh; */
-  font-size: 1.5vw; 
+  font-size: 1.48vw;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .card4 h1 {
@@ -360,7 +363,7 @@ p {
 .Footer {
   display: flex;
   width: 100%;
-  padding: 15px;
+  padding: 5px;
   position: absolute;
   background-color: white;
   border-top: 3px solid silver;
@@ -385,5 +388,5 @@ p {
 .logos {
   display: block;
   padding: 10px;
-  width: 4.2%;
+  width: 5%;
 }
