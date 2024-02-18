@@ -392,3 +392,16 @@ p {
   width: 5%;
   padding: 10px;
 }
+
+@media (color-gamt: p3) { 
+  .card3 p {
+    color: (display-p3 7, 180, 7);
+
+  }
+
+.card4 {
+ 
+  background-color: color(display-p3 1 0 0);
+
+}
+}
