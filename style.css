@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 html {
   font-family: "Brandon bld";
 }
@@ -131,14 +138,23 @@ nav h1 {
 .FirstRow {
   display: flex;
   justify-content: left;
-  align-items: left;
+  align-items: flex-start;
   width: 100%;
-  margin-top: 90px;
+  padding-top: 140px; 
 }
 
 .ImageArea {
   display: flex;
   height: auto;
+  margin: 10px;
+}
+
+/* Header Styles */
+.card h1 {
+  text-align: left; /* Align headers to the left */
+  font-size: 2.5rem; /* Adjust the font size if necessary */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 .card1 {
@@ -153,6 +169,7 @@ nav h1 {
 img {
   animation: fadein 3s;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .tone {
@@ -195,6 +212,7 @@ p {
 
 .card1 h1 {
   color: white;
+  padding: 25px, 15px;
 }
 
 .SecondRow {
@@ -241,7 +259,7 @@ p {
   align-items: left;
   width: 100%;
   border-top: 0.9px solid black;
-  background-color: rgb(53, 52, 52);
+
 }
 
 .card3 {
@@ -249,16 +267,43 @@ p {
   background-color: rgb(53, 52, 52);
   padding: 60px; /* 60px */
   width: 100%;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   border-right: 0.9px solid black;
   /* border-left: 0.9px solid black; */
 }
 
 .softwarecontents {
   display: block;
-  margin-left: 35px;
+  margin: 10px;
 }
 
+.card {
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px; /* Adds padding to the left and right of the container */
+  box-sizing: border-box;
+  width: 100%; /* Ensure the container spans the full width of the viewport */
+}
+
+/* Change Card background colour */
+.card1{
+  background-color: black; 
+}
+
+.card2 {
+  background-color: white;
+}
 .card3 p {
   color: rgb(7, 180, 7);
   white-space: normal;
@@ -291,7 +336,6 @@ p {
 .card4 {
   display: block;
   background-color: rgb(50, 50, 182);
-  padding: 70px;
   width: 100%;
   border-left: 0.9px solid black;
   text-align: center;
@@ -323,7 +367,7 @@ p {
 
 .GameContent {
   display: block;
-  padding-left: 75px;
+  padding-left: 15px;
   padding-right: 75px;
   padding-bottom: 25px;
   position: relative;
@@ -355,6 +399,25 @@ p {
 @keyframes blink {
   50% {
     opacity: 0;
+  }
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .FirstRow, .SecondRow, .ThirdRow, .FourthRow {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -392,3 +455,4 @@ p {
   width: 5%;
   padding: 10px;
 }
+
