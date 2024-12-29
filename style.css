@@ -72,12 +72,12 @@ body {
   height: auto;
 }
 
-/* .flex {
+.flex {
     display:flex;
     justify-content: center;
-    width: 100%;
+
     background-color: white;
-  } */
+  }
 
 #NavBar {
   display: block;
@@ -135,9 +135,10 @@ nav h1 {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+
 .FirstRow {
   display: flex;
-  justify-content: left;
+  justify-content: flex-start; 
   align-items: flex-start;
   width: 100%;
   padding-top: 140px; 
@@ -145,7 +146,7 @@ nav h1 {
 
 .ImageArea {
   display: flex;
-  height: auto;
+  height: 25%;
   margin: 10px;
 }
 
@@ -157,9 +158,19 @@ nav h1 {
   padding: 0; /* Remove default padding */
 }
 
+.card1 p {
+  color: white;
+  text-align: left; /* Ensure the text is aligned to the left */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
 .card1 {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: black;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 60px;
   width: 25%;
   /* padding-bottom: 150.5px; */
@@ -211,8 +222,9 @@ p {
 }
 
 .card1 h1 {
-  color: white;
-  padding: 25px, 15px;
+  padding: 0; /* Remove any padding to avoid misalignment */
+  margin: 0 0 15px 0; /* Add margin to separate the header from the content */
+  text-align: left; /* Ensure the text is aligned to the left */
 }
 
 .SecondRow {
