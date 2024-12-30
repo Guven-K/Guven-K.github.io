@@ -71,13 +71,13 @@ body {
   /* rem = resizes the image */
   height: auto;
 }
-
+/* 
 .flex {
     display:flex;
     justify-content: center;
 
     background-color: white;
-  }
+  } */
 
 #NavBar {
   display: block;
@@ -146,7 +146,7 @@ nav h1 {
 
 .ImageArea {
   display: flex;
-  height: 25%;
+  height: 50%;
   margin: 10px;
 }
 
@@ -172,7 +172,7 @@ nav h1 {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 60px;
-  width: 25%;
+  width: 120%;
   /* padding-bottom: 150.5px; */
   border-right: 0.9px solid black;
 }
@@ -225,6 +225,7 @@ p {
   padding: 0; /* Remove any padding to avoid misalignment */
   margin: 0 0 15px 0; /* Add margin to separate the header from the content */
   text-align: left; /* Ensure the text is aligned to the left */
+  font-size: 45px;
 }
 
 .SecondRow {
@@ -302,9 +303,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   padding: 0 20px; /* Adds padding to the left and right of the container */
   box-sizing: border-box;
   width: 100%; /* Ensure the container spans the full width of the viewport */
+
 }
 
 /* Change Card background colour */
