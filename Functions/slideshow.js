@@ -15,7 +15,7 @@ window.onload = function() {
       if (myIndex >= x.length) {myIndex = 0}
       x[myIndex].style.display = 'block';
       myIndex++;
-      setTimeout(showSlides, 4000); // Change image every 4 seconds
+      setTimeout(showSlides, 4500); // Change image every 4.5 seconds
   }
 
   var slideIndex2 = 0;
@@ -35,6 +35,6 @@ window.onload = function() {
       }
 
       slides[slideIndex2 - 1].style.display = "block";
-      setTimeout(showSlides2, 4000); // Change image every 4 seconds
+      setTimeout(showSlides2, 4500); // Change image every 4.5 seconds
   }
 }
