@@ -318,6 +318,7 @@ p {
 .card2 {
   background-color: white;
 }
+
 .card3 p {
   color: rgb(7, 180, 7);
   white-space: normal;
@@ -468,5 +469,10 @@ p {
 .link  {
   width: 5%;
   padding: 10px;
+}
+
+.Astro {
+  display: flex;
+  padding: 0;
 }
 
