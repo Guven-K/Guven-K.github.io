@@ -243,13 +243,26 @@ p {
 }
 
 .progress-async .progress-bar {
-  width: 20%; /* Example skill level for Async */
+  width: 45%; /* Example skill level for Async */
 }
 
 .progress-multithreading .progress-bar{
   width: 15%;
 }
 
+.ImageArea2 {
+  display: flex;
+  position: relative;
+  height: 50%;
+  margin: 10px;
+  vertical-align: middle;
+  flex-direction: column; 
+
+}
+
+.ImageArea2 img {
+  margin: 10px;
+}
 
 .card1 h1,
 .card2 h1,
