@@ -246,6 +246,10 @@ p {
   width: 20%; /* Example skill level for Async */
 }
 
+.progress-multithreading .progress-bar{
+  width: 15%;
+}
+
 
 .card1 h1,
 .card2 h1,
