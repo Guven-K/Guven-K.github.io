@@ -211,6 +211,42 @@ p {
   white-space: pre-line;
 }
 
+.label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.progress-container {
+  width: 100%;
+  max-width: 300px;
+  height: 25px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
+
+#progress-label {
+  font-size: medium;
+  color: white;
+}
+
+.progress-datastructure .progress-bar {
+  width: 90%; /* Example skill level for Async */
+}
+
+.progress-async .progress-bar {
+  width: 20%; /* Example skill level for Async */
+}
+
+
 .card1 h1,
 .card2 h1,
 .card3 h1,
