@@ -250,6 +250,10 @@ p {
   width: 15%;
 }
 
+.progress-linq .progress-bar{
+  width: 25%;
+}
+
 .ImageArea2 {
   display: flex;
   position: relative;
