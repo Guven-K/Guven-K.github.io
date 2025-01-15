@@ -220,25 +220,23 @@ p {
 .progress-section {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .progress-pair {
     display: flex;
     align-items: center; /* Align label and bar vertically centered */
-    justify-content: flex-start;
-    width: 100%;
+    gap: 10px; 
 }
   
 
 .progress-container {
-  width: 100%;
-  max-width: 300px;
-  height: 25px;
+  flex-grow: 1;
+  max-width: 240px; /* Set maximum width for bars */
+  height: 25px; /* this keeps desired bar height */
   background-color: #e0e0e0;
   border-radius: 5px;
   overflow: hidden;
-  margin-bottom: 20px;
 }
 
 .progress-bar {
@@ -248,13 +246,11 @@ p {
 }
 
 #progress-label  {
-  display: flex;
-  font-size: medium;
+  font-size: 1rem; /* Adjust font size for consistency */
   color: white;
-  margin: 0px;
-  padding: 0px;
-  margin-right: 20px;  
-  width: 120px;
+  margin-right: 10px; /* Space between label and bar */
+  white-space: nowrap; /* Prevent line break in label text */
+  width: 150px; /* Increase slightly for better alignment */
 
 }
 
