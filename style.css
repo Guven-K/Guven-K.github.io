@@ -217,6 +217,20 @@ p {
   color: #333;
 }
 
+.progress-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progress-pair {
+    display: flex;
+    align-items: center; /* Align label and bar vertically centered */
+    justify-content: flex-start;
+    width: 100%;
+}
+  
+
 .progress-container {
   width: 100%;
   max-width: 300px;
@@ -238,8 +252,20 @@ p {
   font-size: medium;
   color: white;
   margin: 0px;
-  padding: 0px;  
+  padding: 0px;
+  margin-right: 20px;  
+  width: 120px;
 
+}
+
+.p-datastructure {
+  display: flex;
+  padding: 5px;
+}
+
+.p-async{
+  display: flex;
+  padding: 5px;
 }
 
 .progress-datastructure .progress-bar {
