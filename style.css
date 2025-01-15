@@ -224,7 +224,7 @@ p {
   background-color: #e0e0e0;
   border-radius: 5px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .progress-bar {
@@ -233,9 +233,13 @@ p {
   transition: width 0.3s ease-in-out;
 }
 
-#progress-label {
+#progress-label  {
+  display: flex;
   font-size: medium;
   color: white;
+  margin: 0px;
+  padding: 0px;  
+
 }
 
 .progress-datastructure .progress-bar {
@@ -258,7 +262,7 @@ p {
   display: flex;
   position: relative;
   height: 50%;
-  margin: 10px;
+  margin: 0px;
   vertical-align: middle;
   flex-direction: column; 
 
