@@ -246,7 +246,7 @@ p {
 }
 
 #progress-label  {
-  font-size: 1rem; /* Adjust font size for consistency */
+  font-size: 1.05rem; /* Adjust font size for consistency */
   color: white;
   margin-right: 10px; /* Space between label and bar */
   white-space: nowrap; /* Prevent line break in label text */
@@ -280,15 +280,28 @@ p {
   width: 25%;
 }
 
+
+.programming-section {
+  display: flex;
+  padding: 65px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(53, 52, 52);
+}
+
 .ImageArea2 {
   display: flex;
-  position: relative;
   height: 50%;
-  margin: 0px;
+
   vertical-align: middle;
   flex-direction: column; 
 
 }
+
+
 
 .ImageArea2 img {
   margin: 10px;
@@ -361,7 +374,7 @@ p {
   display: flex;
   background-color: rgb(53, 52, 52);
   padding: 60px; /* 60px */
-  width: 90%;
+  width: 45%;
   height: 10%;
   /* padding-bottom: 100px; */
   border-right: 0.9px solid black;
