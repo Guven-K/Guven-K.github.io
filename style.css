@@ -283,6 +283,7 @@ p {
 
 .programming-section {
   display: flex;
+  flex-direction: row;
   padding: 65px;
   border-radius: 8px;
   margin-top: 5px;
@@ -370,7 +371,7 @@ p {
   display: flex;
   background-color: rgb(53, 52, 52);
   padding: 60px; /* 60px */
-  width: 45%;
+  width: 50%;
   height: 10%;
   /* padding-bottom: 100px; */
   border-right: 0.9px solid black;
