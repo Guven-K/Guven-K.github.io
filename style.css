@@ -295,7 +295,6 @@ p {
 .ImageArea2 {
   display: flex;
   height: 50%;
-
   vertical-align: middle;
   flex-direction: column; 
 }
@@ -397,11 +396,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 0 20px; /* Adds padding to the left and right of the container */
   box-sizing: border-box;
   width: 100%; /* Ensure the container spans the full width of the viewport */
-
 }
 
 /* Change Card background colour */
@@ -510,7 +507,6 @@ p {
     opacity: 0;
   }
 }
-
 
 /* Responsive Adjustments */
 @media (max-width: 1200px) {
