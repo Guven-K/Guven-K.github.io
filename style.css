@@ -556,14 +556,13 @@ p {
 }
 
 .footercontents {
-  display: block;
+  display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .logos {
-  display: block;
-  width: 100%;
+  width: 50%;
 }
 
 .link  {
