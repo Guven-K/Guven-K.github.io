@@ -307,6 +307,7 @@ p {
   height: 100%;
   vertical-align: middle;
   flex-direction: column; 
+  justify-content: space-between; 
 }
 
 .ImageArea2 img {
@@ -371,13 +372,13 @@ p {
 .ThirdRow {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch; /* Ensure both elements stretch to the same height */
   width: 100%;
-  
 }
 
 .card3 {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
   background-color: rgb(53, 52, 52);
   padding: 60px; /* 60px */
