@@ -580,9 +580,10 @@ p {
 }
 
 .logos {
+  display: flex;
   width: 50%;
-  background-color: whitesmoke;
-  padding: 5px;
+  padding: 10px;
+  margin: 0px;
 }
 
 .link  {
@@ -593,15 +594,19 @@ p {
 
 .gmailbackground {
   display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: rgb(225, 222, 222);
-  padding-top: 5px;
-  padding-bottom: 5px;
   border-radius: 8px;
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 100%; 
-  margin: 0 auto;
+  width: auto; 
+  margin: 0; 
+}
+
+.gmail_icon{
+  display: flex;
+  width: 50%;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: rgb(235, 232, 232);
 }
 
 .Astro {
