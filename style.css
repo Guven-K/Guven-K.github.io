@@ -59,8 +59,6 @@ body {
   overflow-x: hidden;
 }
 
-.White
-
 .Logo {
   display: block;
   object-fit: fill;
@@ -73,6 +71,7 @@ body {
   /* rem = resizes the image */
   height: auto;
 }
+
 /* 
 .flex {
     display:flex;
