@@ -630,3 +630,9 @@ p {
   color: #333;
   font-size: 1.2rem;
 }
+
+.projects {
+  display: flex;
+  background-color: white;
+  padding: 50px;
+}
