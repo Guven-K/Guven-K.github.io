@@ -191,17 +191,17 @@ img {
 }
 
 .tone {
-  animation: fadein 3s;
+  animation: fadein 4s;
 }
 
 .ttwo {
-  animation: fadein 10.5s;
+  animation: fadein 15.5s;
 }
 
 .tthree {
   overflow: hidden;
-  animation-delay: 4s;
-  animation: fadein 14s;
+  animation-delay: 10s;
+  animation: fadein 25s;
 }
 
 p {
