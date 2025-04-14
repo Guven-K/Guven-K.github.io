@@ -149,15 +149,20 @@ nav h1 {
   display: flex;
   height: 10%;
   margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
   flex-grow: 1;
+  border-radius: 8px;
   align-items: stretch;
+}
+
+.ImageArea img {
+  border-radius: 8px;
 }
 
 /* Header Styles */
 .card h1 {
   text-align: left; /* Align headers to the left */
-  font-size: 2.5rem; /* Adjust the font size if necessary */
+  font-size: 2.6rem; /* Adjust the font size if necessary */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
 }
@@ -167,6 +172,7 @@ nav h1 {
   text-align: left; /* Ensure the text is aligned to the left */
   margin: 0; /* Remove any default margin */
   padding: 0; /* Remove any default padding */
+  line-height: 1.6;
 }
 
 .card1 {
@@ -187,7 +193,6 @@ nav h1 {
 img {
   animation: fadein 3s;
   overflow: hidden;
-  border-radius: 8px;
 }
 
 .tone {
