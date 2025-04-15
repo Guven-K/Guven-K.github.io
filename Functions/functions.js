@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       navBar.style.top = "-150px";
     } else {
       navBar.style.top = "0";
-    }
+    }   
   });
 
   document.addEventListener("mousemove", (e) => {
