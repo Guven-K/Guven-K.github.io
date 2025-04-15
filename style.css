@@ -64,10 +64,11 @@ body {
   object-fit: fill;
   position: relative;
   float: right;
-  margin: 5px;
+  margin: 7px;
   position: relative;
-  right: 2rem;
-  width: 3.2rem;
+  right: 1rem;
+  width: 4rem;
+  border-radius: 8px;
   /* rem = resizes the image */
   height: auto;
 }
@@ -239,7 +240,7 @@ p {
 .progress-section {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .progress-pair {
@@ -487,10 +488,9 @@ p {
 }
 
 .card4 {
-  display: block;
+  display: flex;
   background-color: rgb(50, 50, 182);
   width: 100%;
-  height: 10%;
   text-align: center;
 }
 
@@ -500,7 +500,8 @@ p {
   /* font-size: 2.95vh; */
   font-size: 1.48vw;
   font-weight: bold;
-  padding-bottom: 20px;
+  -webkit-text-stroke-width: px;
+  -webkit-text-stroke-color: black;
 }
 
 .card4 h1 {
@@ -515,7 +516,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   border: 1px solid black;
 }
 
@@ -523,9 +524,9 @@ p {
   display: block;
   padding-left: 15px;
   padding-right: 75px;
-  padding-bottom: 25px;
+  padding-bottom: 20  px;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .cursor {
@@ -626,7 +627,7 @@ p {
 .logos {
   display: flex;
   width: 50%;
-  padding: 10px;
+  padding: 5px;
   margin: 0px;
 }
 
@@ -640,25 +641,50 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 600px; 
-  background-color: whitesmoke;
-  margin: 0 auto; 
-  padding: 0px;
+  border-radius: 14px;
+  padding: 12px;
+  width: 90px;  /* Match other icons */
+  height: 90px; /* Ensures it's a square */
+  background-color: rgb(233, 233, 233)
 }
 
-.gmail_icon{
-  display: flex;
-  width: 50%;
-  padding: 12px;
-  border-radius: 10px;
-  background-color: rgb(77, 255, 0);
+.gmail_icon {
+  width: 100%;
+  height: auto;
 }
+
 
 .Astro {
+  display: block; 
+  height: auto;
+}
+
+.game-title {
   display: flex;
-  padding: 0;
+  align-items: center;
+  gap: 10px; /* space between text and gif */
+  margin: 0;
+}
+
+.game-title h1 {
+  margin: 0;
+}
+
+.GameImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-top: 20px; /* Adjust as needed */
+}
+.GameImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .MiniFooter p {
