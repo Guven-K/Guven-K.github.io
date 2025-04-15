@@ -94,6 +94,12 @@ body {
   z-index: 1;
   transition: top 0.3s;
 }
+#ScrollTrigger {
+  height: 100px; /* Adjust how far user needs to scroll before navbar hides */
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 40px;
+}
 
 li {
   float: left;
@@ -142,7 +148,7 @@ nav h1 {
   justify-content: flex-start; 
   align-items: stretch;
   width: 100%;
-  padding-top: 140px; 
+  margin-top: 0px;
 }
 
 .ImageArea {
@@ -172,9 +178,9 @@ nav h1 {
   color: white;
   text-align: left; /* Ensure the text is aligned to the left */
   margin: 0; /* Remove any default margin */
-  padding: 0; /* Remove any default padding */
+  padding-top: 15px; /* Remove any default padding */
   line-height: 1.5;
-  font-size: 1.29vw;
+  font-size: 1.268vw;
 }
 
 .card1 {
