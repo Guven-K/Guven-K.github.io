@@ -494,7 +494,7 @@ p {
 }
 
 .card4 p {
-  color: white;
+  color: #fadadd;
   white-space: normal;
   /* font-size: 2.95vh; */
   font-size: 1.48vw;
@@ -504,7 +504,7 @@ p {
 }
 
 .card4 h1 {
-  color: white;
+  color:  #d4af37;
   white-space: normal;
   font-family: Brandon bld;
   -webkit-text-stroke-width: 2px;
@@ -523,7 +523,6 @@ p {
   display: block;
   padding-left: 15px;
   padding-right: 75px;
-  padding-bottom: 20  px;
   position: relative;
   margin-bottom: 0px;
 }
@@ -662,11 +661,11 @@ p {
   display: flex;
   align-items: center;
   gap: 10px; /* space between text and gif */
-  margin: 0;
 }
 
 .game-title h1 {
   margin: 0;
+  color: #d4af37;
 }
 
 .GameImage {
@@ -676,7 +675,7 @@ p {
   width: 100%;
   height: auto;
   padding: 10px;
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 10px; /* Adjust as needed */
 }
 .GameImage img {
   width: 100%;
