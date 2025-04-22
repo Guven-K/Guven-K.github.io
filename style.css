@@ -640,17 +640,16 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 14px;
-  padding: 12px;
-  width: 90px;  /* Match other icons */
-  height: 90px; /* Ensures it's a square */
+  padding: 2px;
+  width: 5vw;  /* Match other icons */
+  height: 5vw; /* Ensures it's a square */
   background-color: rgb(233, 233, 233)
 }
 
 .gmail_icon {
-  width: 100%;
-  height: auto;
+  display: flex;
+  width: 3.5vw;
 }
-
 
 .Astro {
   display: block; 
