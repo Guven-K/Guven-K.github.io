@@ -13,19 +13,26 @@ body {
   padding: 0;
 }
 
-.mobile-only {
+#desktop-message {
   display: none;
+  background-color: yellow;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
 }
+
 @media (max-width: 768px) {
-  .mobile-only {
+  #desktop-message {
     display: block;
-    background: #ffcc00;
-    color: #000;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
+  }
+
+  .flex {
+    display: none; /* hides the rest of the site on small screens */
   }
 }
+
 
 @font-face {
   font-family: "Brandon med";
