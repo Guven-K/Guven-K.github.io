@@ -13,6 +13,20 @@ body {
   padding: 0;
 }
 
+.mobile-only {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+    background: #ffcc00;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+}
+
 @font-face {
   font-family: "Brandon med";
   src: url("https://assets.website-files.com/56579ffcc34a791f576971ce/56eaacb1de3aa8347038a7a8_Brandon_med.otf") format("opentype");
