@@ -23,4 +23,6 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 Feel free to reach out via the contact section on the site or connect with me on [LinkedIn](#).
 
+Gmail support will be added later
+
 
