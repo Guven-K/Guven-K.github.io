@@ -131,6 +131,16 @@ body {
   z-index: 1;
   transition: top 0.3s;
 }
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 3px solid silver;
+}
+
 #ScrollTrigger {
   height: 100px; /* Adjust how far user needs to scroll before navbar hides */
   width: 100%;
@@ -302,7 +312,7 @@ p {
 }
 
 #progress-label  {
-  font-size: 1.05rem; /* Adjust font size for consistency */
+  font-size: 1.08rem; /* Adjust font size for consistency */
   color: white;
   margin-right: 10px; /* Space between label and bar */
   white-space: nowrap; /* Prevent line break in label text */
