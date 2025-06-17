@@ -287,6 +287,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .progress-pair {
@@ -295,7 +296,6 @@ p {
     gap: 10px; 
 }
   
-
 .progress-container {
   flex-grow: 1;
   max-width: 240px; /* Set maximum width for bars */
@@ -362,11 +362,17 @@ p {
   box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.icon-secton {
+.icon-section {
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* cleaner than margin on each img */
+}
+
+.icon-section img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .WhiteBackground {
