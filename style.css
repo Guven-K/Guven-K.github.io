@@ -317,7 +317,6 @@ p {
   margin-right: 10px; /* Space between label and bar */
   white-space: nowrap; /* Prevent line break in label text */
   width: 150px; /* Increase slightly for better alignment */
-
 }
 
 .p-datastructure {
@@ -358,7 +357,7 @@ p {
   margin-bottom: 10px;
   background-color: rgb(53, 52, 52);  
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
   box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -367,7 +366,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; /* cleaner than margin on each img */
+  gap: 40px; /* cleaner than margin on each img */
 }
 
 .icon-section img:hover {
