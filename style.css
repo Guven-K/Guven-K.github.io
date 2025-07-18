@@ -6,7 +6,7 @@
 
 
 html {
-  font-family: "Brandon med", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -53,22 +53,6 @@ body {
   }
 }
 
-
-
-
-
-@font-face {
-  font-family: "Brandon med";
-  src: url("https://assets.website-files.com/56579ffcc34a791f576971ce/56eaacb1de3aa8347038a7a8_Brandon_med.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Brandon bld";
-  src: url("https://assets.website-files.com/56579ffcc34a791f576971ce/56eaacb1de3aa8347038a7a7_Brandon_bld.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: auto;
-}
 
 @keyframes slide-left {
   from {
@@ -184,7 +168,7 @@ nav h1 {
   font-size: 2.8rem;
   text-align: right;
   margin-right: 100px;
-  font-family: "Brandon bld";
+  font-family: 'Montserrat', sans-serif;
   color: black;
   animation: pop 0.6s linear 1;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -558,7 +542,7 @@ p {
 .card4 h1 {
   color:  #d4af37;
   white-space: normal;
-  font-family: Brandon bld;
+  font-family: 'Montserrat', sans-serif;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
@@ -648,7 +632,7 @@ p {
   text-align: right;
   margin-right: 7px;
   font-size: 4.55vh;
-  font-family: "Brandon bld";
+  font-family: 'Montserrat', sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
