@@ -332,7 +332,7 @@ p {
 .programming-section {
   display: flex;
   flex-grow: 1; 
-  padding: 10px;
+  padding: 50px;
   border-radius: 8px;
   margin-top: 10px;
   margin-left: 10px;
@@ -356,6 +356,12 @@ p {
 .icon-section img:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
+}
+
+.programming-section .icon-secton img {
+  width: 500px; /* Or whatever size you prefer */
+  padding: 100px;
+
 }
 
 .WhiteBackground {
