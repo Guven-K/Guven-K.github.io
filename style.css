@@ -16,7 +16,6 @@ body {
   background-color: rgb(225, 225, 225);
 }
 
-
 #desktop-message {
   display: none;
   position: fixed;
@@ -35,7 +34,6 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
-
 
 
 @media (max-width: 768px) {
@@ -293,6 +291,7 @@ p {
   height: 100%;
   background-color: #4caf50;
   transition: width 0.3s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #progress-label  {
@@ -350,14 +349,14 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px; /* cleaner than margin on each img */
+  gap: 45px; /* cleaner than margin on each img */
 }
 
 .icon-section img:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
 }
-
+ 
 .programming-section .icon-secton img {
   width: 500px; /* Or whatever size you prefer */
   padding: 100px;
@@ -369,7 +368,6 @@ p {
   padding: 10px;
   border-radius: 8px;
 }
-
 
 .ImageArea2 {
   display: flex;
@@ -384,8 +382,6 @@ p {
   box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px;
 }
-
-
 
 .ImageArea2 img {
   margin: 10px;
@@ -674,7 +670,7 @@ p {
 .link  {
   display: flex;
   width: 10%;
-  padding: 2px; 
+  padding: 2px;
 }
 
 .gmailbackground {
@@ -718,6 +714,7 @@ p {
   padding: 10px;
   margin-top: 10px; /* Adjust as needed */
 }
+
 .GameImage img {
   width: 100%;
   height: auto;

@@ -11,7 +11,7 @@ setInterval(() => {
 
 const myObject = {
   myMethod() {
-    let person = 'Maybe consider buying me a coffee if you are impressed with my work. :)';
+    let person = 'Maybe consider buying me a coffee, if you are impressed with my work. :)';
     console.log(person);
   }
 };
