@@ -281,6 +281,35 @@ window.addEventListener('scroll', revealOnScroll);
 // Initialize reveal on load
 document.addEventListener('DOMContentLoaded', revealOnScroll);
 
+// About Section Slideshow
+function initAboutSlideshow() {
+    const slideshowImages = document.querySelectorAll('.slideshow-img');
+    let currentIndex = 0;
+    
+    function showNextImage() {
+        // Hide current image
+        slideshowImages[currentIndex].classList.remove('active');
+        
+        // Move to next image
+        currentIndex = (currentIndex + 1) % slideshowImages.length;
+        
+        // Show next image
+        slideshowImages[currentIndex].classList.add('active');
+    }
+    
+    // Start slideshow if images exist
+    if (slideshowImages.length > 0) {
+        // Set initial active image
+        slideshowImages[0].classList.add('active');
+        
+        // Change image every 3 seconds
+        setInterval(showNextImage, 3000);
+    }
+}
+
+// Initialize slideshow when page loads
+document.addEventListener('DOMContentLoaded', initAboutSlideshow);
+
 // Add hover effects for project cards
 document.querySelectorAll('.project-card').forEach(card => {
     card.addEventListener('mouseenter', () => {
