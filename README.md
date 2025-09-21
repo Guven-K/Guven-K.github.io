@@ -5,9 +5,9 @@ A modern, responsive portfolio website showcasing my skills in software developm
 ## 🌟 Features
 
 - **Modern Design**: Clean, professional layout with smooth animations
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Fully Responsive**: Optimised for desktop, tablet, and mobile devices
 - **Interactive Elements**: Smooth scrolling, hover effects, and scroll animations
-- **Performance Optimized**: Fast loading with optimized assets
+- **Performance Optimised**: Fast loading with optimised assets
 - **Accessibility**: Semantic HTML and keyboard navigation support
 - **Contact Form**: Integrated contact form with email functionality
 
@@ -21,7 +21,7 @@ A modern, responsive portfolio website showcasing my skills in software developm
 
 ## 📱 Responsive Design
 
-The portfolio is fully responsive and optimized for:
+The portfolio is fully responsive and optimised for:
 - Desktop (1200px+)
 - Tablet (768px - 1199px)
 - Mobile (320px - 767px)
@@ -81,10 +81,10 @@ The portfolio is fully responsive and optimized for:
 - Social media links
 - Professional contact information
 
-## 🔧 Customization
+## 🔧 Customisation
 
-### Colors
-The website uses CSS custom properties for easy color customization:
+### Colours
+The website uses CSS custom properties for easy colour customisation:
 ```css
 :root {
     --primary-color: #2563eb;
