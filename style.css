@@ -408,10 +408,17 @@ p {
 
 .SecondRow {
   display: flex;
-  justify-content: right;
-  align-items: right;
-  width: 100%;
+  align-items: stretch;
+  justify-content: space-between;
 }
+
+.SecondRow .ImageArea,
+.SecondRow .card2 {
+  flex: 1 1 0;
+  margin: 0;
+  padding: 60px;  /* or whatever padding you prefer */
+}
+
 
 .card2 {
   display: block;
@@ -444,22 +451,32 @@ p {
 
 .ThirdRow {
   display: flex;
+  align-items: stretch;
   justify-content: space-between;
-  align-items: stretch; /* Ensure both elements stretch to the same height */
+}
+
+.ImageArea2 {
+  flex: 1 1 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.ImageArea2 img {
+  position: absolute;
+  inset: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .card3 {
+  flex: 1 1 0;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
-  background-color: rgb(53, 52, 52);
-  padding: 60px; /* 60px */
-  width: 1500px; /* or use rem */
-  max-width: 100%;
-  /* padding-bottom: 100px; */  
-  
-  /* border-left: 0.9px solid black; */
+  padding: 60px;
+  /* remove width: 1500px or similar fixed sizes */
 }
 
 .softwarecontents {
