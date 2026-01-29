@@ -174,25 +174,28 @@ nav h1 {
 
 
 /* Make the row stretch both sides equally */
-.FirstRow{
+/* First row layout fixes */
+.FirstRow {
   display: flex;
   align-items: stretch;
 }
 
-/* The image column should fill the row height */
-.ImageArea{
+.ImageArea {
+  display: flex;
   flex: 1;
-  height: 100%;
-  overflow: hidden;      /* hides crop */
-  border-radius: 12px;   /* match your rounded style */
+  height: 100%;      /* Fill row height */
+  margin: 10px;
+  overflow: hidden;  /* Hide overflow/crop */
+  border-radius: 12px;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Make the image fill the full column height */
-.ImageArea img{
-  display: block;        /* removes baseline/inline gaps */
+.ImageArea img {
+  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;     /* fills area; may crop edges */
+  border-radius: 12px;
+  object-fit: cover; /* Ensures images fill and crop as needed */
 }
 
 
