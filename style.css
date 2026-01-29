@@ -173,25 +173,30 @@ nav h1 {
 }
 
 
-
+/* First row layout */
 .FirstRow {
   display: flex;
   align-items: stretch;
 }
 
-.card1,
+/* Left panel (Software Engineer card) */
+.card1 {
+  flex: 1 1 0;              /* share space evenly with the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 60px;
+  margin: 0;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border-right: 0.9px solid black;  /* optional separator */
+}
+
+/* Right panel (images) */
 .ImageArea {
   flex: 1 1 0;
-  margin: 0;
-}
-
-.card1 {
-  width: auto;      /* don’t set 120% */
-  min-width: 0;     /* prevents overflow */
-}
-
-
-.ImageArea {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
@@ -200,12 +205,13 @@ nav h1 {
 
 .ImageArea img {
   position: absolute;
-  inset: 0;       /* top: 0; right: 0; bottom: 0; left: 0; */
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
 }
+
 
 
 
