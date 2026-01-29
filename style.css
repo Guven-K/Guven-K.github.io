@@ -172,35 +172,20 @@ nav h1 {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-
-/* First row layout */
 .FirstRow {
   display: flex;
   align-items: stretch;
 }
 
-/* Left panel (Software Engineer card) */
-.card1 {
-  flex: 1 1 0;              /* share space evenly with the image */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 60px;
-  margin: 0;
-  background-color: black;
-  color: white;
-  border-radius: 8px;
-  border-right: 0.9px solid black;  /* optional separator */
-}
-
-/* Right panel (images) */
+.card1,
 .ImageArea {
   flex: 1 1 0;
+  margin: 0;
+}
+
+.ImageArea {
   position: relative;
   overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 5px 4px 8px rgba(0,0,0,0.1);
 }
 
 .ImageArea img {
@@ -209,11 +194,7 @@ nav h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 12px;
 }
-
-
-
 
 /* Header Styles */
 .card h1 {
@@ -230,6 +211,20 @@ nav h1 {
   padding-top: 15px; /* Remove any default padding */
   line-height: 1.5;
   font-size: 1.268vw;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 60px;
+  width: 120%;
+  border-radius: 8.5px;
+  flex-grow: 1;   
+  /* padding-bottom: 150.5px; */
+  border-right: 0.9px solid black;
 }
 
 img {
@@ -375,28 +370,23 @@ p {
   border-radius: 8px;
 }
 
-/* App Developer section image column */
 .ImageArea2 {
-  flex: 1 1 0;
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  /* remove height: 10% */
+  display: flex;
+  height: 10%;
+  background-color: transparent;
+  vertical-align: middle;
+  flex-direction: column; 
+  justify-content: space-between; 
 }
-
-.ImageArea2 img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
 
 .SoftwareImage {
   box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px;
+}
+
+.ImageArea2 img {
+  margin: 10px;
+  border-radius: 8px;
 }
 
 .card1 h1,
@@ -418,20 +408,9 @@ p {
 
 .SecondRow {
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-}
-
-.SecondRow .ImageArea {
-  flex: 1 1 0;
-}
-
-.SecondRow .card2 {
-  flex: 1 1 0;
-  margin: 0;
-  padding: 60px;
-  background-color: white;
-  /* remove width: 100%; so it shares space */
+  justify-content: right;
+  align-items: right;
+  width: 100%;
 }
 
 .card2 {
