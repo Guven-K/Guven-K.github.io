@@ -173,29 +173,31 @@ nav h1 {
 }
 
 
-/* Make the row stretch both sides equally */
-/* First row layout fixes */
+
 .FirstRow {
   display: flex;
   align-items: stretch;
+  gap: 10px;      /* spacing between columns */
+}
+
+.card1,
+.ImageArea {
+  margin: 0;      /* avoid margins that shrink the height */
 }
 
 .ImageArea {
-  display: flex;
-  flex: 1;
-  height: 100%;      /* Fill row height */
-  margin: 10px;
-  overflow: hidden;  /* Hide overflow/crop */
+  flex: 1 1 auto;
+  overflow: hidden;
   border-radius: 12px;
-  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 4px 8px rgba(0,0,0,0.1);
 }
 
 .ImageArea img {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   border-radius: 12px;
-  object-fit: cover; /* Ensures images fill and crop as needed */
 }
 
 
