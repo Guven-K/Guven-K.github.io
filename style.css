@@ -172,28 +172,29 @@ nav h1 {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.FirstRow {
+
+/* Make the row stretch both sides equally */
+.FirstRow{
   display: flex;
-  justify-content: flex-start; 
   align-items: stretch;
+}
+
+/* The image column should fill the row height */
+.ImageArea{
+  flex: 1;
+  height: 100%;
+  overflow: hidden;      /* hides crop */
+  border-radius: 12px;   /* match your rounded style */
+}
+
+/* Make the image fill the full column height */
+.ImageArea img{
+  display: block;        /* removes baseline/inline gaps */
   width: 100%;
-  margin-top: 0px;
+  height: 100%;
+  object-fit: cover;     /* fills area; may crop edges */
 }
 
-.ImageArea {
-  display: flex;
-  height: 10%;
-  margin: 10px;
-  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
-  flex-grow: 1;
-  background-color: transparent;
-  border-radius: 8px;
-  align-items: stretch;
-}
-
-.ImageArea img {
-  border-radius: 8px;
-}
 
 /* Header Styles */
 .card h1 {
