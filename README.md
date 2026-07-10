@@ -114,7 +114,7 @@ The website uses CSS custom properties for easy colour customisation:
 
 ## 📄 License
 
-© 2025 Guven Kul. All rights reserved.
+© 2026 Guven Kul. All rights reserved.
 
 ---
 
