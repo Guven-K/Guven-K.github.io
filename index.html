@@ -3,214 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Guven Kul</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Guven Kul — Software Engineer</title>
+    <meta name="description" content="Portfolio of Guven Kul — software engineer building desktop applications, websites and games.">
     <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 </head>
 
 <body>
-    <div id="desktop-message">
-        For best viewing experience, please view on desktop.
-    </div>
-      
-    <!-- For best viewing experience please view this on Desktop-->
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Fira Code');
-        .footercontents {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 5px; /* Adjust the gap between logos as needed */
-        }
-        .logos {
-            width: 2%; /* Adjust the width as needed */
-        }
-    </style>
+    <header id="NavBar">
+        <nav class="nav-inner">
+            <ul class="nav-links">
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="mailto:guvenmukremin@gmail.com">Contact</a></li>
+            </ul>
+            <a class="nav-brand" href="index.html">
+                <span>Guven Kul</span>
+                <img class="Logo" src="Images/GKlogo.png" alt="GK logo">
+            </a>
+        </nav>
+    </header>
 
+    <div id="ScrollTrigger"></div>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <main class="page">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-
-
-    <div class=flex>
-        <div id="NavBar">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Portfolio</a></li>
-                    <li><a href="https://github.com/Guven-K?tab=repositories">Projects</a></li>
-                    <li><a href="mailto: guvenmukremin@gmail.com">Contact</a></li>
-                </ul>
-                <img class="Logo" src="Images/GKlogo.png" width="5px">
-                <h1>Guven Kul</h1>
-            </nav>
-        </div>
-
-        <!-- Programmer Section -->
-        <div id="ScrollTrigger"></div>
-        <div class="FirstRow" id="first-row">
+        <!-- Software Engineer -->
+        <section class="row">
             <div class="card card1">
                 <h1>Software Engineer</h1>
-                <p><span class="tone">Hi, I'm Guven Kul.</span>
-
-                    <span class="ttwo">Software Engineer with a strong foundation in software development. With a degree in Computer Science and 3 years of industry experience at Infinitesima.
-                        <br>I’m particularly passionate about creating responsive desktop applications with clean design and a seamless user experience. Including web development and UI design to complement my software engineering background.</span>
-                        <br><span class="tthree"> My mission is to become a professional software engineer.</span></p>
+                <p class="lead tone">Hi, I'm Guven Kul.</p>
+                <p class="ttwo">I'm a software engineer with a degree in Computer Science and three years of
+                    industry experience at Infinitesima. I specialise in building responsive desktop
+                    applications with clean design and a seamless user experience, complemented by a
+                    background in web development and UI design.</p>
+                <p class="tthree muted">Always learning, always building — my goal is to craft software
+                    that people enjoy using.</p>
             </div>
             <div class="ImageArea">
-               <img class="Slideshow" src="Images/imageonecrop.jpeg" width="100%" loading="lazy">
-                <img class="Slideshow" src="Images/Laptop.jpg" width="100%" loading="lazy">
-                <img class="Slideshow" src="Images/uni.png" width="100%" loading="lazy">
+                <img class="Slideshow" src="Images/imageonecrop.jpeg" alt="Guven Kul" loading="lazy">
+                <img class="Slideshow" src="Images/Laptop.jpg" alt="Laptop workspace" loading="lazy">
+                <img class="Slideshow" src="Images/uni.png" alt="University graduation" loading="lazy">
             </div>
-        </div>
+        </section>
 
-        <!-- Web Developer Section  -->
-        <div class="SecondRow">
+        <!-- Web Developer -->
+        <section class="row">
             <div class="ImageArea">
-                <img class="Slideshow2" src="Images/Duck.jpg" width="100%" loading="lazy">
-                <img class="Slideshow2" src="Images/Vevey2.jpg" width="100%" loading="lazy">
+                <img class="Slideshow2" src="Images/Duck.jpg" alt="Lake with a duck" loading="lazy">
+                <img class="Slideshow2" src="Images/Vevey2.jpg" alt="Vevey lakeside" loading="lazy">
             </div>
             <div class="card card2">
-                <h1 style="color: blue">Web<br><span style="color: orange;">Developer</span></h1>
-                <p>Proficient in web development, specialising in building commercial websites using HTML5, CSS, JavaScript, jQuery, PHP, as well as utilising Node.js and MongoDB. I am also skilled in 2D games and animations with JavaScript, as well as 3D programming with Three.js. </p> 
-                <div class="icon-section" style="border-color: gray; border-radius: 10px;display: flex; flex-wrap: wrap; justify-content: center;">
-                            <img src="Images/HTML5.png" width="15%" style="margin: 5px;">
-                            <img src="Images/CSS3.png" width="15%" style="margin: 5px;">
-                            <img src="Images/js.png" width="15%" style="margin: 5px; border-radius: 5px;">
-                            <img src="Images/Visual_Studio_Code.png" width="15%" style="margin: 5px;">
+                <h2><span class="web-blue">Web</span> <span class="web-orange">Developer</span></h2>
+                <p>I build commercial websites with HTML5, CSS and JavaScript, and work across the stack
+                    with jQuery, PHP, Node.js and MongoDB. I also enjoy the creative side of the web —
+                    2D games and animations in JavaScript, and 3D graphics with Three.js.</p>
+                <div class="icon-section">
+                    <img src="Images/HTML5.png" alt="HTML5">
+                    <img src="Images/CSS3.png" alt="CSS3">
+                    <img src="Images/js.png" alt="JavaScript" class="rounded">
+                    <img src="Images/Visual_Studio_Code.png" alt="Visual Studio Code">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Software Developer Section -->
-        <div class="ThirdRow">
+        <!-- App Developer -->
+        <section class="row">
             <div class="card card3">
-                <div class="softwarecontents">
-                    <h1>App Developer</h1>
-                    <p id="Software">
-                        I am an experienced software developer who thrives on crafting cross-platform desktop apps using
-                        languages such as C#, Python and Java. My expertise lies in C# and leveraging GUI frameworks like
-                        WPF and Avalonia to deliver seamless user experience.
-                        <br>
-                    </p>
-                    <div class="progress-section">
-                        <div class="progress-pair">
-                        <p id="progress-label">Data Structures </p>    
+                <h2>App Developer</h2>
+                <p>I craft cross-platform desktop applications in C#, Python and Java. My core strength
+                    is C#, working with GUI frameworks such as WPF and Avalonia to deliver polished,
+                    reliable user experiences.</p>
+                <div class="progress-section">
+                    <div class="progress-pair">
+                        <p class="progress-label">Data Structures</p>
                         <div class="progress-container progress-datastructure">
                             <div class="progress-bar">90%</div>
                         </div>
                     </div>
-                        
-                        <div class="progress-pair">
-                        <p id="progress-label">Async and Await</p>
+                    <div class="progress-pair">
+                        <p class="progress-label">Async and Await</p>
                         <div class="progress-container progress-async">
                             <div class="progress-bar">85%</div>
                         </div>
                     </div>
-
                     <div class="progress-pair">
-                        <p id="progress-label">Multithreading</p>
+                        <p class="progress-label">Multithreading</p>
                         <div class="progress-container progress-multithreading">
                             <div class="progress-bar">80%</div>
                         </div>
                     </div>
-
-
                     <div class="progress-pair">
-                        <p id="progress-label">LINQ</p>
+                        <p class="progress-label">LINQ</p>
                         <div class="progress-container progress-linq">
                             <div class="progress-bar">90%</div>
                         </div>
                     </div>
                 </div>
-                <!-- Programming Languages Sections-->
-            
-                </div>
             </div>
-            
             <div class="ImageArea2">
-                <img src="Images/bugreport.png" class="SoftwareImage" width="98.8%" loading="lazy">
+                <img src="Images/bugreport.png" class="SoftwareImage" alt="Desktop application screenshot" loading="lazy">
                 <div class="programming-section">
-
-                    <div class="icon-section">
-                        <img src="Images/csharp.png" width="15%" Height="15%">
-                    
-                    </div>
-
-                    <div class="icon-section"> 
-                        <img src="Images/avalonialogo.png" width="15%" class="WhiteBackground">
-                      
-                    </div>
-
-                    <div class="icon-section">
-                        <img src="Images/Visual_Studio_Icon_2022.png" width="13%">
-                       
-                    </div>
+                    <img src="Images/csharp.png" alt="C#">
+                    <img src="Images/avalonialogo.png" alt="Avalonia UI" class="WhiteBackground">
+                    <img src="Images/Visual_Studio_Icon_2022.png" alt="Visual Studio 2022">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Game Developer Section  -->
-        <div class="FourthRow">
+        <!-- Game Developer -->
+        <section class="row single">
             <div class="card card4">
-                <div class="GameContent">   
-                  <div class="game-title">
-  <h1>Game Developer</h1>
-  <img class="Astro" src="Images/astronaut.gif" alt="Astronaut">
-</div>
-                    <p>
-                        I am an experienced Unity developer proficient in creating C# scripts. While Unity is my primary focus, I have also worked on projects using Unreal Engine 5. I am currently involved in various game development projects and have an academic background in game development and programming.
-                        Open to exploring other game engines and frameworks, including Godot and Game Maker Studio. My goal is to create engaging and immersive gaming experiences that captivate players.
-                    </p>
-                    <div class="GameImage">
-                        <img class="game" src="Images/RacingGame.png" width="100%" loading="lazy">
-                        <img class="game" src="Images/unrealengine5.png" width="100%" loading="lazy">
-                    </div>
+                <div class="game-title">
+                    <h2>Game Developer</h2>
+                    <img class="Astro" src="Images/astronaut.gif" alt="Astronaut animation">
+                </div>
+                <p>Unity is my engine of choice — I write gameplay systems in C# — and I have also built
+                    projects in Unreal Engine 5, backed by an academic background in game development and
+                    programming. I'm open to exploring other engines too, including Godot and GameMaker
+                    Studio. My goal: engaging, immersive experiences that captivate players.</p>
+                <div class="GameImage">
+                    <img src="Images/RacingGame.png" alt="Racing game screenshot" loading="lazy">
+                    <img src="Images/unrealengine5.png" alt="Unreal Engine 5 project" loading="lazy">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Projects showcase section  -->
+    </main>
 
-        <!-- Link to other projects section  -->
-
-    </div>
-
-    <div class="Footer">
-      
+    <footer class="Footer">
         <div class="footercontents">
-       
-              <h1>Let's keep in touch </h1>
-            <a href="https://www.linkedin.com/in/guven-kul/" class="link">
-                <img class="logos" src="/Images/Link.png">
-            </a>
-            <a href="https://www.instagram.com/guven_dev/" class="link">
-                <img class="logos" src="/Images/instagram.png">
-            </a>
-            <a href="https://github.com/Guven-K" class="link">
-                <img class="logos" src="/Images/git.png">
-            </a>
-            <a href="mailto: guvenmukremin@gmail.com" class="link">
-                    <img class="logos" src="/Images/gmail_icon.png">
-            </a>
-            <footer class="MiniFooter">
-                <p>&copy; 2026 Guven. All rights reserved.</p>
-              </footer>
+            <h2>Let's keep in touch</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/guven-kul/" aria-label="LinkedIn">
+                    <img src="Images/Link.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/guven_dev/" aria-label="Instagram">
+                    <img src="Images/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://github.com/Guven-K" aria-label="GitHub">
+                    <img src="Images/git.png" alt="GitHub">
+                </a>
+                <a href="mailto:guvenmukremin@gmail.com" aria-label="Email">
+                    <img src="Images/gmail_icon.png" alt="Email">
+                </a>
+            </div>
+            <p class="MiniFooter">&copy; 2026 Guven Kul. All rights reserved.</p>
         </div>
-    </div>
+    </footer>
 
-  <!-- Scripts -->
+    <!-- Scripts -->
     <script src="Functions/functions.js"></script>
     <script src="Functions/slideshow.js"></script>
     <script src="Functions/cursor.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </body>
 </html>

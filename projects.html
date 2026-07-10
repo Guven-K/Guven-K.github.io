@@ -1,85 +1,81 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Guven Kul - Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guven Kul — Projects</title>
+    <meta name="description" content="Projects by Guven Kul — desktop applications, websites and games.">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Fira Code');
-    </style>
-    <script src="functions.js"></script>
+    <header id="NavBar">
+        <nav class="nav-inner">
+            <ul class="nav-links">
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="mailto:guvenmukremin@gmail.com">Contact</a></li>
+            </ul>
+            <a class="nav-brand" href="index.html">
+                <span>Guven Kul</span>
+                <img class="Logo" src="Images/GKlogo.png" alt="GK logo">
+            </a>
+        </nav>
+    </header>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <div id="ScrollTrigger"></div>
 
+    <main class="page">
+        <h1 class="page-title">Projects</h1>
 
-    <div class=flex>
+        <section class="projects-grid">
+            <article class="card project-card">
+                <h2>MyFolio</h2>
+                <img src="Images/MyFolio.png" alt="MyFolio screenshot" loading="lazy">
+                <a class="project-link" href="https://github.com/Guven-K?tab=repositories">View on GitHub &rarr;</a>
+            </article>
 
-        <div id="desktop-message" style="display: none;">
-            For best viewing experience, please view on desktop.
-          </div>
-          
-        <div id="NavBar">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Portfolio</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <img class="Logo" src="Images/GKLogo.png" width="5%">
-                <h1>Guven Kul</h1>
-            </nav>
-        </div>
+            <article class="card project-card">
+                <h2>Pixel Odyssey</h2>
+                <img src="Images/astronaut.gif" alt="Pixel Odyssey astronaut animation" loading="lazy">
+                <a class="project-link" href="https://github.com/Guven-K?tab=repositories">View on GitHub &rarr;</a>
+            </article>
 
-        <div class="projects">
-            <div class="card card1">
-                    <h1>MyFolio</h1>
-                    <img src="Images/MyFolio.png" width="40%">
-                    <p>Link to GitHub project: </p>
-                    <img src="Images/external-link.png" width="5%">
-                    <p></p>
-                    </div>
-            <div class="card card2">
-                    <p>Pixel Odyessey</h2>
-                    <img src="Images/astronaut.gif" width="40%">
-                    <p>Link to GitHub project: </p>
-                    <img src="Images/external-link.png" width="5%">
-                    <p><p>
-                    </div>
-        </div>
+            <article class="card project-card">
+                <h2>Racing Game</h2>
+                <img src="Images/RacingGame.png" alt="Racing game screenshot" loading="lazy">
+                <a class="project-link" href="https://github.com/Guven-K?tab=repositories">View on GitHub &rarr;</a>
+            </article>
+        </section>
+    </main>
 
-        <div class="card card2">
-            <p>Racing Game<p>
-                <img src="Images/racinggame.png" width="40%">
-                <p>Link to GitHub project: </p>
-                <img src="Images/external-link.png" width="5%">
-        </div>
-    </div>
-    <div class="Footer">
+    <footer class="Footer">
         <div class="footercontents">
-              <h1>Let's keep in touch </h1>
-            <a href="https://www.linkedin.com/in/guven-kul/" class="link">
-                <img class="logos" src="/Images/Link.png">
-            </a>
-            <a href="https://www.instagram.com/guven_dev/" class="link">
-                <img class="logos" src="/Images/Insta.png">
-            </a>
-            <a href="https://github.com/Guven-K" class="link">
-                <img class="logos" src="/Images/git.png">
-            </a>
-            <a href="mailto: guvenmukremin@gmail.com" class="link">
-                <div class="gmailbackground">
-                <img class="gmail_icon" src="/Images/gmail_icon.png">
+            <h2>Let's keep in touch</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/guven-kul/" aria-label="LinkedIn">
+                    <img src="Images/Link.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/guven_dev/" aria-label="Instagram">
+                    <img src="Images/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://github.com/Guven-K" aria-label="GitHub">
+                    <img src="Images/git.png" alt="GitHub">
+                </a>
+                <a href="mailto:guvenmukremin@gmail.com" aria-label="Email">
+                    <img src="Images/gmail_icon.png" alt="Email">
+                </a>
             </div>
-            </a>
-            <footer class="MiniFooter">
-                <p>&copy; 2025 Guven. All rights reserved.</p>
-              </footer>
+            <p class="MiniFooter">&copy; 2026 Guven Kul. All rights reserved.</p>
         </div>
-    </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="Functions/functions.js"></script>
 </body>
 </html>

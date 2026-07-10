@@ -4,3 +4,7 @@ Images/paraglidingold.JPG
 
 .codegpt
 portfolio_redesign.html
+
+.claude/
+.DS_Store
+Images/.DS_Store
